@@ -1,0 +1,7 @@
+# Core dependencies for YOLO11-based detection pipeline
+ultralytics>=8.3.0
+opencv-python>=4.10.0
+numpy>=1.24.0
+lap>=0.5.12
+# Install a CUDA-enabled build of torch that matches your driver/toolkit.
+torch>=2.3.0
