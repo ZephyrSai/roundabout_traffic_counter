@@ -1,0 +1,37 @@
+Lane Groups:
+- base: color=(0, 255, 255), direction=south-north
+    segment 1: [[219, 330], [1061, 678]]
+- straight: color=(0, 165, 255), direction=south-north
+    segment 1: [[649, 314], [908, 380]]
+- turn: color=(0, 0, 255), direction=south-north
+    segment 1: [[377, 348], [467, 375]]
+- far_turn: color=(0, 255, 0), direction=south-north
+    segment 1: [[932, 410], [1043, 465]]
+
+base (south -> north):
+  car: 207
+  truck: 25
+  bus: 9
+
+straight (south -> north):
+  car: 24
+  truck: 7
+
+turn (south -> north):
+  car: 68
+  truck: 9
+  bus: 2
+
+far_turn (south -> north):
+  car: 101
+  truck: 11
+  bus: 3
+
+Vehicle crossing summary:
+  Vehicles crossing all groups (base, straight, turn, far_turn): 0
+  Total unique tracked vehicles: 11
+
+Total vehicles by class:
+  car: 400
+  truck: 52
+  bus: 14

@@ -1,0 +1,56 @@
+groups:
+- name: base
+  color:
+  - 0
+  - 255
+  - 255
+  direction: south-north
+  segments:
+  - - - 219
+      - 330
+    - - 1061
+      - 678
+- name: straight
+  color:
+  - 0
+  - 165
+  - 255
+  direction: south-north
+  segments:
+  - - - 649
+      - 314
+    - - 908
+      - 380
+- name: turn
+  color:
+  - 0
+  - 0
+  - 255
+  direction: south-north
+  segments:
+  - - - 377
+      - 348
+    - - 467
+      - 375
+- name: far_turn
+  color:
+  - 0
+  - 255
+  - 0
+  direction: south-north
+  segments:
+  - - - 932
+      - 410
+    - - 1043
+      - 465
+roi:
+- - 4
+  - 185
+- - 1424
+  - 164
+- - 1436
+  - 945
+- - 5
+  - 947
+- - 2
+  - 186
