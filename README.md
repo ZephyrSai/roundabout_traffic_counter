@@ -13,8 +13,8 @@ This project provides a modular Python application for running YOLO11-based vehi
 
 ## Project Layout
 
-app.py                 # Entry point
-lanedet/               # Core application package
+`app.py                 # Entry point
+lanedet                # Core application package
     cli.py             # Argument parsing helpers
     constants.py       # Shared constants (classes, colors, fonts, CLAHE, etc.)
     drawing.py         # Overlay rendering utilities
@@ -28,7 +28,7 @@ lanedet/               # Core application package
     scaling.py         # Geometry scaling routines
     types.py           # Dataclasses for LaneGroup and LaneSegment
     utils.py           # General utilities (logging, tracker loading, etc.)
-working.py             # Legacy wrapper (imports the new pipeline)
+working.py             # Legacy wrapper (imports the new pipeline)`
 
 
 ## Setup
@@ -88,6 +88,7 @@ working.py remains as a compatibility wrapper; it simply imports the new pipelin
 ## License
 
 This project builds on the Ultralytics YOLO framework; review their license for model usage. Any bespoke code in this repository can be adapted to your project needs.
+
 
 
 
