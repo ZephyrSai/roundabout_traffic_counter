@@ -13,7 +13,7 @@ This project provides a modular Python application for running YOLO11-based vehi
 
 ## Project Layout
 
-``
+
 app.py                 # Entry point
 lanedet/               # Core application package
     cli.py             # Argument parsing helpers
@@ -30,17 +30,17 @@ lanedet/               # Core application package
     types.py           # Dataclasses for LaneGroup and LaneSegment
     utils.py           # General utilities (logging, tracker loading, etc.)
 working.py             # Legacy wrapper (imports the new pipeline)
-``
+
 
 ## Setup
 
 1. Create or activate a Python 3.10+ virtual environment.
 2. Install dependencies:
-   `ash
+   `bash
    pip install -r requirements.txt
    `
 3. (Optional) For TFLite inference, install the runtime:
-   `ash
+   `bash
    pip install tflite-runtime==2.13.0
    `
    Adjust the version according to your platform if needed.
@@ -89,4 +89,5 @@ working.py remains as a compatibility wrapper; it simply imports the new pipelin
 ## License
 
 This project builds on the Ultralytics YOLO framework; review their license for model usage. Any bespoke code in this repository can be adapted to your project needs.
+
 
